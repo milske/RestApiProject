@@ -2,10 +2,10 @@
   "name": "restapi",
   "version": "1.0.0",
   "description": "render for restapi",
-  "main": "playground-8.mongodb.js",
+  "main": "rest_api.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "playground-8.mongodb.js"
+    "start": "rest_api.js"
   },
   "keywords": [
     "render",
