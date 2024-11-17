@@ -1,0 +1,16 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "render for restapi",
+  "main": "playground-8.mongodb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node rest_api.js"
+  },
+  "keywords": [
+    "render",
+    "restapi"
+  ],
+  "author": "Milla",
+  "license": "ISC"
+}
