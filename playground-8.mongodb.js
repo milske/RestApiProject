@@ -10,7 +10,8 @@
 // https://www.mongodb.com/docs/mongodb-vscode/playgrounds/
 
 // Select the database to use.
-// use("mongodbVSCodePlaygroundDB");
+/*
+use("mongodbVSCodePlaygroundDB");
 
 // Insert a few documents into the sales collection.
 db.getCollection("sales").insertMany([
@@ -93,3 +94,4 @@ db.getCollection("sales").aggregate([
     },
   },
 ]);
+*/
