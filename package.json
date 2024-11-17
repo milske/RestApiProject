@@ -12,5 +12,8 @@
     "restapi"
   ],
   "author": "Milla",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
 }
