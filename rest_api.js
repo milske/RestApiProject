@@ -193,7 +193,7 @@ app.get("*", function (req, res) {
 });
 
 // start web server by express
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 8080;
 app.listen(PORT, function () {
-  console.log("Example app is listening to port http://localhost:3000", PORT);
+  console.log("Example app is listening to port http://localhost:8080", PORT);
 });
