@@ -1,6 +1,8 @@
 // import necessary modules, using express
 var express = require("express");
+var cors = require("cors");
 var app = express();
+app.use(cors());
 var bodyParser = require("body-parser"); // to get parameters
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json()); // to parse JSON-data
@@ -174,7 +176,7 @@ app.delete("/api/delete/:id", function (req, res) {
       if (result.deletedCount === 0) {
         res.status(404).json({ error: "Item could not be deleted" });
       } else {
-        res.status(200).json({ message: "Item deleted successfully" });
+        res.status(200).json({ message: "Movie deleted successfully" });
       }
     } catch (e) {
       console.error(e);
